@@ -1,5 +1,22 @@
-# 2 Ülesane
+# 1 Ülesane
 from math import *
+print("Arvutage sinu normale pikkus.")
+k=int(input("Mis on sinu kaal: "))
+h=int(input("Mis on sinu kasv: "))
+v=int(input("Mis on sinu vanus: "))
+if h>0:
+    n=h+10
+    n2=h+10
+    if n>n2: 
+        print(f"Normale kasv {n}.")
+    elif n2>n: 
+        print(f"Normale kasv {n2}.")
+    else:
+        print(f"Sinu normale kasv on {n} cm.")
+print()
+
+
+# 2 Ülesane
 try:
     p=int(input("Mis päev täna on "))
 except:
@@ -19,28 +36,7 @@ elif p==6:
 elif p==7:
     print("Täna on vimane päev kuni uus töönädala")
 print()
-
-
-
-# 1 Ülesane
-k=int(input("Mis on sinu kaal: "))
-h=int(input("Mis on sinu kasv: "))
-v=int(input("Mis on sinu vanus: "))
-if k>0 or h>0 or v>0:
-    N=k+v/h
-    N2=k+v/h
-    if N>N2:
-        print(f"Normaalne pikkus ja kaal {N}, kuni {N2} juures.")
-    elif N2>N:
-        print(f"Normaalne pikkus ja kaal {N2}, kuni {N} juures.")
-
-print()
-
-
     
-
-
-
 
 #13.12.22
 from random import *
